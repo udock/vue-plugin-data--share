@@ -1,0 +1,29 @@
+{
+  "udock-fd-share": {
+    "description": "UDock fdshare",
+    "prefix": "udock-fd-share",
+    "body": [
+      "fd: {",
+      "\tshare () {",
+      "\t\treturn {",
+      "\t\t\t$1",
+      "\t\t}",
+      "\t}",
+      "},"
+    ]
+  },
+  "udock-data-share": {
+    "description": "UDock Share Data",
+    "prefix": "udock-data-share",
+    "body": [
+      "'${1:attr}@share': '${2:parent.}${1:attr}',"
+    ]
+  },
+  "udock-data-share-rw": {
+    "description": "UDock Share Data RW",
+    "prefix": "udock-data-share-rw",
+    "body": [
+      "'$1@share': ['$2.$1'],"
+    ]
+  }
+}
