@@ -11,7 +11,7 @@
     "vscode-snippets"
   ],
   "scripts": {
-    "build": "@udock/build-tools rollup"
+    "build": "udock-build-tools rollup"
   },
   "peerDependencies": {
     "lodash": "^4.17.4",
@@ -19,6 +19,6 @@
     "@udock/vue-plugin-data": "^0.0.1"
   },
   "devDependencies": {
-    "@udock/build-tools": "^0.0.1"
+    "@udock/build-tools": "^0.0.2"
   }
 }
