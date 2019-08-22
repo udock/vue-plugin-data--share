@@ -2,7 +2,7 @@
   "name": "@udock/vue-lib-data-share",
   "description": "@udock/vue-lib-data-share",
   "private": true,
-  "version": "0.0.1",
+  "version": "0.1.0",
   "main": "dist/index.umd.js",
   "module": "dist/index.esm.js",
   "files": [
@@ -16,9 +16,9 @@
   "peerDependencies": {
     "lodash": "^4.17.4",
     "vue": "^2.5.2",
-    "@udock/vue-plugin-data": "^0.0.1"
+    "@udock/vue-plugin-data": "^0.1.0"
   },
   "devDependencies": {
-    "@udock/build-tools": "^0.0.2"
+    "@udock/build-tools": "^0.1.0"
   }
 }
